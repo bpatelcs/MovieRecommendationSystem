@@ -1,7 +1,7 @@
 ##Movie Recommendation System
 
-This project was developed as a part of assignment given during Web Search Information Retrieval Class.We were supposed to
-use different techniques learned during the class to predict the ratings of the movie.
+This project was developed as a part of assignment given during Web Search and Information Retrieval Class.We were supposed to
+use different techniques learned during the class to predict the missing ratings of the movie.
 
 #####`Train.txt` This file contains the ratings of 200 users for 1000 movies.Some users might not have rated some movie.
 
