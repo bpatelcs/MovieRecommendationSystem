@@ -12,5 +12,15 @@ use different techniques learned during the class to predict the ratings of the 
 #####`text20.txt` This file contating the users having rated 20 movies we had to predict the rating for movie for which ratings is missing.
 
 
+#####`user.java` This file represents the object user which is used to store the similarity of user with particular to active user
+
+#####`CosineRecommendationSystem.java` This code predicts the ratings for active user with missing rating using basic cosine similarity.This is not the best technique as it doen't consider the user bias during the calculation of similarity.
+
+#####`PearsonRecommendationSystem.java` This code predicts the ratings for active user with missing rating using pearson Correalation.
+#####`AdvancedPearsonRecommendationSystem.java` This code predicts the rating using Pearson Corrleation and Inverse User Frequency and Case Amplification Technique.
+
+#####`ItemBasedRecommendationSystem.java` This code predicts the rating using item-tem similarity.This is not the best method as training matrix is very sparse.
+
+
 
 
